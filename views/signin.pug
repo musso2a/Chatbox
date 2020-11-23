@@ -1,0 +1,18 @@
+html
+    head
+        title Connexion
+        meta(charset='utf-8')
+        link(rel="stylesheet", href="/css/style.css")
+        link(rel="icon" href="/img/corsica.ico")
+
+    body
+        include nav.pug
+        h1(class='head-title') Se connecter
+        div(class="wrapper")
+            form(class="form-signin" action="/signin" method="post")     
+                h2(class="form-signin-heading") Se connecter
+                input(type="text" class="form-control" name="username" placeholder="Email" required="" autofocus="")
+                |
+                input(type="password" class="form-control" name="password" placeholder="Mot de passe" required="")
+                |
+                input(class="form-button" type="submit" value="Login")
