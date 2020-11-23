@@ -132,3 +132,24 @@ nav ul .brand a {
 	position:relative;
 	top:1px;
 }
+
+/* page 404 */
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .emoji {
+    font-size: 9em;
+    text-align: center;
+  }
+  .title {
+    font-size: 3em;
+    text-align: center;
+    line-height: 0em;
+    color: grey;
+  }
+  .text {
+    text-align: center;
+  }
